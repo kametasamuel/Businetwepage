@@ -1,0 +1,490 @@
+.head{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    background-image: url('istockphoto-175585739-612x612.jpg');
+    background-size: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}  
+.navbar{
+    margin-top: 20px;
+    white-space: nowrap;
+}
+.logo img{
+    width: 100px;
+    height: 30px;
+}
+.navlinks{
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.navlinks li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navlinks a{
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+.navlinks li td a{
+    color: black;
+}
+.navlinks button{
+    color: white;
+    border-color: transparent;
+}
+.mainlinks a.active{
+    color: rgb(60, 60, 147);
+    text-decoration: none;
+}
+.navlinks a:not(.active):hover,
+.navlinks button:not(.active):hover{
+    color: rgb(60, 60, 147);
+    text-decoration: none;
+
+}
+.navbtn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    color: white;
+}
+.navbtn button:hover{
+    background-color: rgb(212, 188, 157);
+    color: white;
+}
+
+.navbtn button{
+    border: 0.5px solid white;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+}
+.line{
+    height: 1px;
+    width: 100px;
+    border: 0.2px solid rgb(239, 233, 233);
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.jumbomain{
+    margin-top: 150px;
+}
+.jumbomainh1{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.jumbomainh3{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-weight: 150;
+}
+.jumbbtn button{
+    color: black;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+}
+.jumbbtn button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#jumbobtn{
+    background-color: blueviolet;
+    color: white;
+    margin-left: 40px;
+}
+#jumbobtn:hover{
+    color: white;
+    background-color: rgb(212, 188, 157);
+}
+
+.services{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.services h2{
+    color: rgb(116, 35, 192);
+    background-color: skyblue;
+    height: 25px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.what{
+    margin-bottom: 50px;
+}
+.what h1{
+    font-weight: 300;
+}
+.rows{
+    margin-bottom: 20px;
+}
+.servimg img{
+    width: 200px;
+    height: 110px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.cardss{
+    height: 250px;
+    width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sec3{
+    background-color: blueviolet;
+    height: 600px;
+    margin-top: 100px;
+    padding: 130px;
+}
+.sec3 img{
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+}
+.msg{
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 25px;
+
+}
+.msg h2{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.msg h1{
+    margin-bottom: 20px;
+}
+.msgg{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+}
+.msgg h2{
+    color: white;
+    background-color: rgb(135, 147, 235);
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+.listt{
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+.secbtn button{
+    color: black;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sec4{
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.whyus p{
+    color: rgb(106, 95, 95);
+    letter-spacing: 1px;
+    margin-top: 10px ;
+}
+
+.whyus ul li{
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.whyus h1{
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.whyhead{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.whyhead h2{
+    color: white;
+    background-color: rgb(135, 147, 235);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+.headd{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url('latin-confident-professionals-suit-standing-against-isolated-background_662251-330.avif');
+    background-size: cover;
+}
+.overlayy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+}  
+.sec5{
+    margin-top: 100px;
+}
+.workonhead{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+.workonhead h2{
+    color: white;
+    background-color: rgb(144, 148, 179);
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.sec5blue{
+    color: rgb(154, 84, 219);
+    letter-spacing: 1px;
+}
+.sec5h1{
+    color: white;
+    letter-spacing: 1px;
+}
+.sec5 p{
+    color: white;
+    letter-spacing: 1px;
+}
+.sec5btn button{
+    color: black;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 20px;
+}
+.servicess{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.servicess h2{
+    color: rgb(116, 35, 192);
+    background-color: skyblue;
+    height: 25px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.cardbody {
+    position: relative;
+}
+  
+.card:hover .popup-text {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup-text {
+    visibility: hidden;
+    background-color: rgb(128, 128, 244);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.3s, width 0.3s, height 0.3s;
+}
+  
+.card:hover .popup-text {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+.cardd img{
+    height: 250px;
+    width: auto;
+}
+.sec6{
+    margin-top: 70px;
+    background-color: rgb(247, 250, 250);
+    background-size: cover;
+}
+.popq{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    margin-top: 70px;
+}
+
+.popq h2{
+    color: rgb(130, 105, 241);
+    background-color: rgb(208, 208, 244);
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+.sec6h1{
+    margin-bottom: 50px;
+}
+.sec6h1 h1{
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.sec6 h4{
+    color: blueviolet;
+    font-weight: 350;
+}
+.sec6active h4{
+    color: black;
+}
+.btncol{
+    margin-top: 70px;
+}
+.btncol button{
+    width: 700px;
+    height: 100px;
+    border: 0.2px solid rgb(177, 167, 167);
+    border-radius: 20px;
+    margin-left: 70px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.bxn1{
+    margin-bottom: 20px;
+}
+.bxn2{
+    margin-bottom: 20px;
+}
+.bxn3{
+    margin-bottom: 20px;
+}
+
+.sec7{
+    margin-top: 70px;
+    background-color: #3476ec;
+    margin-top: 100px;
+}
+
+.whowe{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.whowe h2{
+    color: #ffffff;
+    background-color: #5f91f0;
+    height: 25px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.partners{
+    margin-bottom: 50px;
+}
+.partners h1{
+    font-weight: 300;
+    color: #ffffff;
+}
+.contlogo img{
+    margin-bottom: 100px;
+}
+
+.leftimgg img{
+    margin-left: 40px;
+    margin-top: -10px;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer img{
+    width: 120px;
+    height: 40px;
+}
+.footpara{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #97a3b3;
+}
+.footer button{
+    border: 0.5px solid #97a3b3;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: #97a3b3;
+    margin-top: 10px;
+}
+.footer button:hover{
+    color: white;
+    background-color: #fe7080;
+}
+.whoweare{
+    margin-top: 20px;
+}
+.iconss img{
+    height: 30px;
+    width: 30px;
+}
+.email{
+    margin-top: 20px;
+    color: #97a3b3;
+}
+.phone{
+    color: #97a3b3;
+}
+.footest{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #97a3b3;
+}
+
+.popup-text img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
